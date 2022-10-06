@@ -3,25 +3,25 @@ import os
 from glob import glob
 
 
-package_name = 'self_driving_car_pkg'
+package_name = 'self_driving_car'
 
 
-config_module = "self_driving_car_pkg/config"
-data_module ="self_driving_car_pkg/data"
+config_module = "self_driving_car/config"
+data_module ="self_driving_car/data"
 
-detection_module ="self_driving_car_pkg/Detection"
-gps_navigation = "self_driving_car_pkg/GPS_Navigation"
+detection_module ="self_driving_car/Detection"
+gps_navigation = "self_driving_car/GPS_Navigation"
 
-det_l_module ="self_driving_car_pkg/Detection/Lanes"
-detec_l_a_module="self_driving_car_pkg/Detection/Lanes/a_Segmentation"
-detec_l_b_module="self_driving_car_pkg/Detection/Lanes/b_Estimation"
-detec_l_c_module="self_driving_car_pkg/Detection/Lanes/c_Cleaning"
-detec_l_d_module="self_driving_car_pkg/Detection/Lanes/d_LaneInfo_Extraction"
+det_l_module ="self_driving_car/Detection/Lanes"
+detec_l_a_module="self_driving_car/Detection/Lanes/a_Segmentation"
+detec_l_b_module="self_driving_car/Detection/Lanes/b_Estimation"
+detec_l_c_module="self_driving_car/Detection/Lanes/c_Cleaning"
+detec_l_d_module="self_driving_car/Detection/Lanes/d_LaneInfo_Extraction"
 
-det_s_module ="self_driving_car_pkg/Detection/Signs"
-detec_s_a_module="self_driving_car_pkg/Detection/Signs/Classification"
+det_s_module ="self_driving_car/Detection/Signs"
+detec_s_a_module="self_driving_car/Detection/Signs/Classification"
 
-detec_TL_module="self_driving_car_pkg/Detection/TrafficLights"
+detec_TL_module="self_driving_car/Detection/TrafficLights"
 
 
 setup(
@@ -46,11 +46,11 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        'spawner_node = self_driving_car_pkg.sdf_spawner:main',
-        'computer_vision_node = self_driving_car_pkg.computer_vision_node:main',
-        'video_recording_node = self_driving_car_pkg.video_save:main',
-        'upper_camera_recording = self_driving_car_pkg.upper_camera_video:main',
-        'sdc_V2 = self_driving_car_pkg.sdc_V2:main',
+        'spawner_node = self_driving_car.sdf_spawner:main',
+        'computer_vision_node = self_driving_car.computer_vision_node:main',
+        'video_recording_node = self_driving_car.video_save:main',
+        'upper_camera_recording = self_driving_car.upper_camera_video:main',
+        'sdc_V2 = self_driving_car.sdc_V2:main',
         ],
     },
 )

@@ -1,0 +1,194 @@
+[0.604s] Invoking command in '/home/chaitu/workspace/self_driving_car/src/self_driving_car': PYTHONPATH=/home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/self_driving_car build --build-base /home/chaitu/workspace/self_driving_car/build/self_driving_car/build install --prefix /home/chaitu/workspace/self_driving_car/install/self_driving_car --record /home/chaitu/workspace/self_driving_car/build/self_driving_car/install.log --single-version-externally-managed
+[0.821s] running egg_info
+[0.821s] creating ../../build/self_driving_car/self_driving_car.egg-info
+[0.821s] writing ../../build/self_driving_car/self_driving_car.egg-info/PKG-INFO
+[0.821s] writing dependency_links to ../../build/self_driving_car/self_driving_car.egg-info/dependency_links.txt
+[0.821s] writing entry points to ../../build/self_driving_car/self_driving_car.egg-info/entry_points.txt
+[0.822s] writing requirements to ../../build/self_driving_car/self_driving_car.egg-info/requires.txt
+[0.822s] writing top-level names to ../../build/self_driving_car/self_driving_car.egg-info/top_level.txt
+[0.823s] writing manifest file '../../build/self_driving_car/self_driving_car.egg-info/SOURCES.txt'
+[0.850s] reading manifest file '../../build/self_driving_car/self_driving_car.egg-info/SOURCES.txt'
+[0.851s] writing manifest file '../../build/self_driving_car/self_driving_car.egg-info/SOURCES.txt'
+[0.851s] running build
+[0.851s] running build_py
+[0.851s] creating /home/chaitu/workspace/self_driving_car/build/self_driving_car/build
+[0.851s] creating /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib
+[0.851s] creating /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car
+[0.851s] copying self_driving_car/sdc_V2.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car
+[0.851s] copying self_driving_car/video_save.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car
+[0.851s] copying self_driving_car/Drive_Bot.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car
+[0.851s] copying self_driving_car/upper_camera_video.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car
+[0.852s] copying self_driving_car/computer_vision_node.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car
+[0.852s] copying self_driving_car/__init__.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car
+[0.852s] copying self_driving_car/sdf_spawner.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car
+[0.852s] creating /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection
+[0.852s] creating /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes
+[0.852s] creating /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/d_LaneInfo_Extraction
+[0.852s] copying self_driving_car/Detection/Lanes/d_LaneInfo_Extraction/__init__.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/d_LaneInfo_Extraction
+[0.852s] copying self_driving_car/Detection/Lanes/d_LaneInfo_Extraction/GetStateInfoandDisplayLane.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/d_LaneInfo_Extraction
+[0.852s] creating /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/c_Cleaning
+[0.852s] copying self_driving_car/Detection/Lanes/c_Cleaning/ExtendLanesAndRefineMidLaneEdge.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/c_Cleaning
+[0.852s] copying self_driving_car/Detection/Lanes/c_Cleaning/CheckifYellowLaneCorrect_RetInnerBoundary.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/c_Cleaning
+[0.852s] copying self_driving_car/Detection/Lanes/c_Cleaning/__init__.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/c_Cleaning
+[0.852s] creating /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/b_Estimation
+[0.853s] copying self_driving_car/Detection/Lanes/b_Estimation/__init__.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/b_Estimation
+[0.853s] copying self_driving_car/Detection/Lanes/b_Estimation/Our_EstimationAlgo.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/b_Estimation
+[0.853s] creating /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/a_Segmentation
+[0.853s] copying self_driving_car/Detection/Lanes/a_Segmentation/__init__.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/a_Segmentation
+[0.853s] copying self_driving_car/Detection/Lanes/a_Segmentation/colour_segmentation_final.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/a_Segmentation
+[0.853s] copying self_driving_car/Detection/Lanes/Lane_Detection.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes
+[0.853s] copying self_driving_car/Detection/Lanes/utilities.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes
+[0.853s] copying self_driving_car/Detection/Lanes/__init__.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes
+[0.853s] copying self_driving_car/Detection/Lanes/Morph_op.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes
+[0.853s] creating /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Signs
+[0.853s] creating /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Signs/Classification
+[0.854s] copying self_driving_car/Detection/Signs/Classification/CNN.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Signs/Classification
+[0.854s] copying self_driving_car/Detection/Signs/Classification/Visualize_CNN.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Signs/Classification
+[0.854s] copying self_driving_car/Detection/Signs/Classification/__init__.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Signs/Classification
+[0.854s] copying self_driving_car/Detection/Signs/Classification/Classification_CNN.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Signs/Classification
+[0.854s] copying self_driving_car/Detection/Signs/SignDetectionApi.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Signs
+[0.854s] copying self_driving_car/Detection/Signs/__init__.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Signs
+[0.854s] creating /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/TrafficLights
+[0.854s] copying self_driving_car/Detection/TrafficLights/__init__.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/TrafficLights
+[0.854s] copying self_driving_car/Detection/TrafficLights/TrafficLights_Detection.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/TrafficLights
+[0.854s] copying self_driving_car/Detection/__init__.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection
+[0.854s] creating /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/GPS_Navigation
+[0.854s] copying self_driving_car/GPS_Navigation/utilities.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/GPS_Navigation
+[0.854s] copying self_driving_car/GPS_Navigation/bot_localization.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/GPS_Navigation
+[0.855s] copying self_driving_car/GPS_Navigation/bot_pathplanning.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/GPS_Navigation
+[0.855s] copying self_driving_car/GPS_Navigation/bot_motionplanning.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/GPS_Navigation
+[0.855s] copying self_driving_car/GPS_Navigation/bot_mapping.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/GPS_Navigation
+[0.855s] copying self_driving_car/GPS_Navigation/config.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/GPS_Navigation
+[0.855s] copying self_driving_car/GPS_Navigation/__init__.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/GPS_Navigation
+[0.855s] copying self_driving_car/GPS_Navigation/utilities_disp.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/GPS_Navigation
+[0.855s] copying self_driving_car/GPS_Navigation/Navigation.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/GPS_Navigation
+[0.855s] creating /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/config
+[0.855s] copying self_driving_car/config/config.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/config
+[0.855s] copying self_driving_car/config/__init__.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/config
+[0.855s] creating /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/data
+[0.855s] copying self_driving_car/data/__init__.py -> /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/data
+[0.856s] running install
+[0.857s] running install_lib
+[0.858s] creating /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car
+[0.858s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/sdc_V2.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car
+[0.858s] creating /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection
+[0.858s] creating /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Signs
+[0.858s] creating /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Signs/Classification
+[0.858s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Signs/Classification/CNN.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Signs/Classification
+[0.859s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Signs/Classification/Visualize_CNN.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Signs/Classification
+[0.859s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Signs/Classification/__init__.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Signs/Classification
+[0.859s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Signs/Classification/Classification_CNN.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Signs/Classification
+[0.859s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Signs/SignDetectionApi.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Signs
+[0.859s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Signs/__init__.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Signs
+[0.859s] creating /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/TrafficLights
+[0.859s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/TrafficLights/__init__.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/TrafficLights
+[0.859s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/TrafficLights/TrafficLights_Detection.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/TrafficLights
+[0.859s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/__init__.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection
+[0.859s] creating /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes
+[0.859s] creating /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/b_Estimation
+[0.859s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/b_Estimation/__init__.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/b_Estimation
+[0.859s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/b_Estimation/Our_EstimationAlgo.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/b_Estimation
+[0.860s] creating /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/a_Segmentation
+[0.860s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/a_Segmentation/__init__.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/a_Segmentation
+[0.860s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/a_Segmentation/colour_segmentation_final.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/a_Segmentation
+[0.860s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/Lane_Detection.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes
+[0.860s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/utilities.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes
+[0.860s] creating /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/c_Cleaning
+[0.860s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/c_Cleaning/ExtendLanesAndRefineMidLaneEdge.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/c_Cleaning
+[0.860s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/c_Cleaning/CheckifYellowLaneCorrect_RetInnerBoundary.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/c_Cleaning
+[0.860s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/c_Cleaning/__init__.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/c_Cleaning
+[0.860s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/__init__.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes
+[0.860s] creating /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/d_LaneInfo_Extraction
+[0.860s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/d_LaneInfo_Extraction/__init__.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/d_LaneInfo_Extraction
+[0.860s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/d_LaneInfo_Extraction/GetStateInfoandDisplayLane.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/d_LaneInfo_Extraction
+[0.860s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Detection/Lanes/Morph_op.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes
+[0.860s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/video_save.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car
+[0.861s] creating /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/data
+[0.861s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/data/__init__.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/data
+[0.861s] creating /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/config
+[0.861s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/config/config.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/config
+[0.861s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/config/__init__.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/config
+[0.861s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/Drive_Bot.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car
+[0.861s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/upper_camera_video.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car
+[0.861s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/computer_vision_node.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car
+[0.861s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/__init__.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car
+[0.861s] creating /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/GPS_Navigation
+[0.861s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/GPS_Navigation/utilities.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/GPS_Navigation
+[0.861s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/GPS_Navigation/bot_localization.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/GPS_Navigation
+[0.861s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/GPS_Navigation/bot_pathplanning.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/GPS_Navigation
+[0.861s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/GPS_Navigation/bot_motionplanning.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/GPS_Navigation
+[0.861s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/GPS_Navigation/bot_mapping.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/GPS_Navigation
+[0.861s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/GPS_Navigation/config.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/GPS_Navigation
+[0.862s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/GPS_Navigation/__init__.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/GPS_Navigation
+[0.862s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/GPS_Navigation/utilities_disp.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/GPS_Navigation
+[0.862s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/GPS_Navigation/Navigation.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/GPS_Navigation
+[0.862s] copying /home/chaitu/workspace/self_driving_car/build/self_driving_car/build/lib/self_driving_car/sdf_spawner.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car
+[0.862s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/sdc_V2.py to sdc_V2.cpython-38.pyc
+[0.866s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Signs/Classification/CNN.py to CNN.cpython-38.pyc
+[0.867s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Signs/Classification/Visualize_CNN.py to Visualize_CNN.cpython-38.pyc
+[0.867s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Signs/Classification/__init__.py to __init__.cpython-38.pyc
+[0.867s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Signs/Classification/Classification_CNN.py to Classification_CNN.cpython-38.pyc
+[0.868s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Signs/SignDetectionApi.py to SignDetectionApi.cpython-38.pyc
+[0.869s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Signs/__init__.py to __init__.cpython-38.pyc
+[0.869s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/TrafficLights/__init__.py to __init__.cpython-38.pyc
+[0.870s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/TrafficLights/TrafficLights_Detection.py to TrafficLights_Detection.cpython-38.pyc
+[0.873s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/__init__.py to __init__.cpython-38.pyc
+[0.873s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/b_Estimation/__init__.py to __init__.cpython-38.pyc
+[0.873s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/b_Estimation/Our_EstimationAlgo.py to Our_EstimationAlgo.cpython-38.pyc
+[0.874s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/a_Segmentation/__init__.py to __init__.cpython-38.pyc
+[0.874s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/a_Segmentation/colour_segmentation_final.py to colour_segmentation_final.cpython-38.pyc
+[0.875s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/Lane_Detection.py to Lane_Detection.cpython-38.pyc
+[0.875s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/utilities.py to utilities.cpython-38.pyc
+[0.876s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/c_Cleaning/ExtendLanesAndRefineMidLaneEdge.py to ExtendLanesAndRefineMidLaneEdge.cpython-38.pyc
+[0.876s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/c_Cleaning/CheckifYellowLaneCorrect_RetInnerBoundary.py to CheckifYellowLaneCorrect_RetInnerBoundary.cpython-38.pyc
+[0.877s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/c_Cleaning/__init__.py to __init__.cpython-38.pyc
+[0.877s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/__init__.py to __init__.cpython-38.pyc
+[0.877s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/d_LaneInfo_Extraction/__init__.py to __init__.cpython-38.pyc
+[0.877s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/d_LaneInfo_Extraction/GetStateInfoandDisplayLane.py to GetStateInfoandDisplayLane.cpython-38.pyc
+[0.878s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Detection/Lanes/Morph_op.py to Morph_op.cpython-38.pyc
+[0.879s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/video_save.py to video_save.cpython-38.pyc
+[0.879s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/data/__init__.py to __init__.cpython-38.pyc
+[0.879s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/config/config.py to config.cpython-38.pyc
+[0.880s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/config/__init__.py to __init__.cpython-38.pyc
+[0.880s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/Drive_Bot.py to Drive_Bot.cpython-38.pyc
+[0.881s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/upper_camera_video.py to upper_camera_video.cpython-38.pyc
+[0.881s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/computer_vision_node.py to computer_vision_node.cpython-38.pyc
+[0.882s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/__init__.py to __init__.cpython-38.pyc
+[0.882s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/GPS_Navigation/utilities.py to utilities.cpython-38.pyc
+[0.883s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/GPS_Navigation/bot_localization.py to bot_localization.cpython-38.pyc
+[0.884s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/GPS_Navigation/bot_pathplanning.py to bot_pathplanning.cpython-38.pyc
+[0.886s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/GPS_Navigation/bot_motionplanning.py to bot_motionplanning.cpython-38.pyc
+[0.887s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/GPS_Navigation/bot_mapping.py to bot_mapping.cpython-38.pyc
+[0.889s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/GPS_Navigation/config.py to config.cpython-38.pyc
+[0.889s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/GPS_Navigation/__init__.py to __init__.cpython-38.pyc
+[0.890s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/GPS_Navigation/utilities_disp.py to utilities_disp.cpython-38.pyc
+[0.890s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/GPS_Navigation/Navigation.py to Navigation.cpython-38.pyc
+[0.891s] byte-compiling /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car/sdf_spawner.py to sdf_spawner.cpython-38.pyc
+[0.891s] running install_data
+[0.892s] creating /home/chaitu/workspace/self_driving_car/install/self_driving_car/share/ament_index
+[0.892s] creating /home/chaitu/workspace/self_driving_car/install/self_driving_car/share/ament_index/resource_index
+[0.892s] creating /home/chaitu/workspace/self_driving_car/install/self_driving_car/share/ament_index/resource_index/packages
+[0.892s] copying resource/self_driving_car -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/share/ament_index/resource_index/packages
+[0.892s] copying package.xml -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/share/self_driving_car
+[0.892s] creating /home/chaitu/workspace/self_driving_car/install/self_driving_car/share/self_driving_car/launch
+[0.892s] copying launch/world_gazebo.launch.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/share/self_driving_car/launch
+[0.892s] copying launch/maze_solving_world.launch.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/share/self_driving_car/launch
+[0.892s] copying launch/record_and_drive.launch.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/share/self_driving_car/launch
+[0.892s] copying launch/test_laneFollow.launch.py -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/share/self_driving_car/launch
+[0.892s] creating /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/self_driving_car
+[0.893s] copying scripts/lights_spawner.bash -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/self_driving_car
+[0.893s] copying scripts/lights_spawner_maze.bash -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/self_driving_car
+[0.893s] creating /home/chaitu/workspace/self_driving_car/install/self_driving_car/share/self_driving_car/worlds
+[0.893s] copying worlds/Lane_follow_test.world -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/share/self_driving_car/worlds
+[0.893s] copying worlds/self_driving_car.world -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/share/self_driving_car/worlds
+[0.893s] copying worlds/maze_solving.world -> /home/chaitu/workspace/self_driving_car/install/self_driving_car/share/self_driving_car/worlds
+[0.893s] running install_egg_info
+[0.894s] Copying ../../build/self_driving_car/self_driving_car.egg-info to /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages/self_driving_car-0.0.0-py3.8.egg-info
+[0.894s] running install_scripts
+[0.908s] Installing computer_vision_node script to /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/self_driving_car
+[0.908s] Installing sdc_V2 script to /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/self_driving_car
+[0.908s] Installing spawner_node script to /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/self_driving_car
+[0.908s] Installing upper_camera_recording script to /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/self_driving_car
+[0.908s] Installing video_recording_node script to /home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/self_driving_car
+[0.909s] writing list of installed files to '/home/chaitu/workspace/self_driving_car/build/self_driving_car/install.log'
+[0.926s] Invoked command in '/home/chaitu/workspace/self_driving_car/src/self_driving_car' returned '0': PYTHONPATH=/home/chaitu/workspace/self_driving_car/install/self_driving_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/self_driving_car build --build-base /home/chaitu/workspace/self_driving_car/build/self_driving_car/build install --prefix /home/chaitu/workspace/self_driving_car/install/self_driving_car --record /home/chaitu/workspace/self_driving_car/build/self_driving_car/install.log --single-version-externally-managed
